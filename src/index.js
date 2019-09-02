@@ -5,4 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const container = document.getElementById('root')
 
-ReactDOM.render(< Card/>, container);
+ReactDOM.render(< Card
+                title="Technique Guides"
+                description="Learn amazing street workout and calit"
+                img="../../images/circles.png"
+                leftColor="#A74CF2"
+                rightColor="#617BFB"
+                />, container);
