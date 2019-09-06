@@ -1,6 +1,8 @@
 import React from 'react'
 import ExerciseList from '../components/ExerciseList'
+import AddButton from '../components/AddButton.js'
 import Welcome from '../components/Welcome'
+import AddImg from '../images/add.png'
 
 class Exercises extends React.Component {
 
@@ -42,6 +44,7 @@ class Exercises extends React.Component {
             <div>
                 <Welcome username="Jesus"/>
                 <ExerciseList exercises={this.state.data}/>
+                <AddButton img={AddImg}/>
             </div>
         )
     }
